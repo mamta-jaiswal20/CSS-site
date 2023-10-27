@@ -1,0 +1,125 @@
+body {
+    color: #40514E;
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+h1 {
+    color: #62bfbf;
+    font-size: 90PX;  /* 16px = 100% = 1em */
+    margin: 50px auto 0 auto ;
+    font-family: 'Sacramento', cursive;
+}
+
+h2{
+    color: #62bfbf;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px ; /*2.5rem or em*/
+    font-weight: normal;
+}
+
+h3{
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p{
+    line-height: 1.5;
+}
+
+hr{
+    border: dotted #EAF6F6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto 100px auto ;
+}
+
+a{
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+a:hover{
+    color:#E4F9F5;
+}
+.top-container{
+    background-color: #E4F9F5;
+    /* position: relative; */
+    padding-top: 100px;
+}
+.skill-row{
+    width: 50%;
+    margin: 50px auto 100px auto ;  /* to keep it still in center we added this */
+    text-align: left;
+    
+}
+.code-img{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+.chilli-img{
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+.devel{
+    text-decoration: underline;
+}
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    top: 40px;
+}
+.bottom-cloud{
+    position: absolute;
+    left: 250px;
+    bottom: 300px;
+}
+.middle-container{
+   margin: 100px 0 ;
+}
+.bottom-container{
+    background-color: #66BFBF;
+    margin-top: 100px;
+    padding: 50px 0 20px ;
+}
+.intro{
+    width: 30%;
+    margin: auto;
+    padding-bottom: 10px ;
+}
+.contact-message{
+    width: 40%;
+    margin: 40px auto 60px;
+}
+
+.btn {
+    font-size:15px;
+    font-family: 'Montserrat', sans-serif;
+    width:300px;
+    height:400px;
+    text-decoration: none;
+    border-width:1px;
+    padding: 10px 20px 10px 20px;
+    color:#fff;
+    border-color:#0b0e07;
+    font-weight:bold;
+    border-top-right-radius:8px;
+    border-bottom-left-radius:8px;
+    box-shadow:inset 1px 14px 39px -33px rgba(97, 201, 250, 1);
+    text-shadow:inset 0px 1px 0px #263666;
+    background:linear-gradient(rgba(107, 189, 241, 1), rgba(24, 138, 236, 1));
+  }
+  
+  .btn:hover {
+    background: linear-gradient(rgba(24, 138, 236, 1), rgba(107, 189, 241, 1));
+  }
+       
+  .copyright{
+    color: #EAF6F6;
+    font-size: 0.75 rem;
+    padding: 20px 0px ;
+  }
